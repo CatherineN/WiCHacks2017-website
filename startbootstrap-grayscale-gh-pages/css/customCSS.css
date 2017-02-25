@@ -1,0 +1,15 @@
+body {
+	background-color: #eaffb7 ;
+	font-family: 'PT Sans', Helvetica, sans-serif;
+	color: #3b3b3b;
+}
+
+h1, h2, h3 {
+	font-family: 'Dosis', Helvetica, sans-serif;
+	color: white;
+}
+
+.page-top{
+	background-color: #deff9f;
+	color: #8a96d6;
+}
