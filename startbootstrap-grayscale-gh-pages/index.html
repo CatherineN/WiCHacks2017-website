@@ -15,7 +15,7 @@
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 
-    <!-- Custom Fonts -->
+    <!-- Custom Fonts (Loaded with Template) -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
@@ -50,7 +50,7 @@
                     Menu <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">
-                    <i class="fa fa-play-circle"></i> <span class="light">Start</span> Bootstrap
+                    <i class="fa fa-play-circle"></i> <span class="light">Hello,</span> World
                 </a>
             </div>
 
@@ -69,7 +69,9 @@
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">The Process</a>
-                        <a class="page-scroll" href="#contact">About Us</a>
+                    </li>
+					<li>
+						<a class="page-scroll" href="#us">About Us</a>
                     </li>
                 </ul>
             </div>
@@ -95,14 +97,22 @@
         </div>
     </header>
 
-    <!-- About Section -->
+    <!-- Game Info Section -->
     <section id="about" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2><span class="light">About</span> <em>Hello, World!</em></h2>
-                <p><em>Hello, World!</em> is an open source application focused on teaching the basics of object oriented code through games.</p>
-                <p></p>
-                <p></p>
+                <h1><span class="light">About Our Game</span></h1>
+                <p><em>Hello, World!</em> is an open source game focused on teaching 
+				some basics of object oriented code.</p>
+                <p>In this cold and desolate factory, you play as a cute little robot,
+				 distraught from all the programming bugs that are messing up your system! 
+				 With no one around to help you, you are on your own to save yourself as 
+				 you access your console and fix your code.</p>
+                <p>Our little robot has a console that includes up to 3 sections for the player 
+				to insert their own code. The player will solve puzzles involving movement, simple 
+				collision detection, and jumping physics. Each problem comes with instructions and 
+				hints to help guide the player. When the player submits their code, it gets checked 
+				to see if it is the correct solution. If it is, the code gets implemented in the game!</p>
             </div>
         </div>
     </section>
@@ -112,25 +122,46 @@
         <div class="download-section">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <h2><span class="light">Download</span></h2>
-                    <p>You can download <em>Hello, World!</em> for free by clicking the link below.</p>
-                    <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a>
+                    <h1><span class="light">Download</span></h1>
+                    <p>You can download <em>Hello, World!</em> for free by clicking the link below. Enjoy!</p>
+                    <a href="#" class="btn btn-default btn-lg">Download Game</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
+    <!-- Process Section -->
     <section id="contact" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact Start Bootstrap</h2>
-                <p>Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</p>
-                <p><a href="mailto:feedback@startbootstrap.com">feedback@startbootstrap.com</a>
-                </p>
+                <h1>How It Was Made</h1>
+                <p>It started with a passion for making games, a hackathon, and the aspiration to expose more girls to code.
+				We hope that our game can inspire young girls to look more into the wonderful world of coding!</p>
+				<p>This cross-platform game was created in Visual Studio with <a href = "http://www.monogame.net/">MonoGame</a> 
+				using C# and OpenGL. This website is powered by <a href = "https://startbootstrap.com/template-overviews/grayscale/">Bootstrap</a> 
+				 and caffeine! All art assets were created in Paint Tool SAI and edited in Adobe Photoshop.
+				</p>
+            </div>
+        </div>
+    </section>
+	
+	 <!-- About Us Section -->
+    <section id="us" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h1>Meet the Team:</h1>
+				<div class = "the-team">
+					<ul>
+						<li><strong>Alexia "Code Overwriter" Bernardo:</strong> UI Designer/Technical Writer</li>
+						<li><strong>Anna "Why Did I Do That" Rosenberg:</strong> Creative Director/Programmer</li>
+						<li><strong>Catherine "Google Docs!" Nemechek:</strong> Lead Web Developer/Programmer</li>
+						<li><strong>Juho "Adoptive Robot Mama" Choi:</strong> Lead Artist/Playtester</li>
+						<li><strong>Katarina "Can You Handle This Exception" Weis:</strong> Lead Programmer/Our Coding Savior</li>					
+					</ul>
+				</div>
                 <ul class="list-inline banner-social-buttons">
                     <li>
-                        <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                        <a href="https://github.com/KatWeis/HelloWorldv2.git" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
                     </li>
 
                 </ul>
@@ -142,7 +173,7 @@
     <!-- Footer -->
     <footer>
         <div class="container text-center">
-            <p>Copyright &copy; Your Website 2016</p>
+            <p>Copyright &copy; J.A.A.C.K. 2017</p>
         </div>
     </footer>
 
@@ -154,9 +185,6 @@
 
     <!-- Plugin JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
 
     <!-- Theme JavaScript -->
     <script src="js/grayscale.min.js"></script>

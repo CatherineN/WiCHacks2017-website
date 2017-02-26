@@ -5,11 +5,23 @@ body {
 }
 
 h1, h2, h3 {
-	font-family: 'Dosis', Helvetica, sans-serif;
-	color: white;
+	font-family: 'Barrio', Helvetica, sans-serif;
+	color: #8a96d6;
+}
+
+p {
+	color: #3b3b3b;
 }
 
 .page-top{
 	background-color: #deff9f;
-	color: #8a96d6;
+	color: #3b3b3b;
 }
+
+.the-team {
+	margin: 10%;
+	font-size: 16pt;
+	text-align: left;
+}
+
+
