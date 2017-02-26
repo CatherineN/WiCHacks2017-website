@@ -4,6 +4,10 @@ body {
 	color: #505778;
 }
 
+nav {
+	background-color: #deff9f;
+}
+
 h1, h2, h3 {
 	font-family: 'Barrio', Helvetica, sans-serif;
 	color: #8a96d6;
@@ -12,6 +16,23 @@ h1, h2, h3 {
 p {
 	color: #505778;
 }
+
+a:link{
+	color: white;
+}
+
+p a:link{
+	color: #8060e3;
+}
+
+p a:hover, a:active{
+	color: #9f80ff;
+}
+
+a:visited{
+	color: #7557cf;
+}
+
 
 .page-top{
 	background-color: #deff9f;
@@ -32,4 +53,13 @@ p {
 	text-align: left;
 }
 
+.btn-default{
+	border: 1px solid #9fdeff;
+}
 
+.btn-default:hover,
+.btn-default:focus {
+	border: none;
+	background-color: #9fdeff;
+	outline-color: #9fdeff;
+}
