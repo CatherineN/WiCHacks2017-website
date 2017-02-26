@@ -52,8 +52,9 @@ a:visited{
 	height: 160px;
 }
 
-#gif2{
+.gif2{
 	float: none;
+	height: 160px;
 }
 
 .the-team {
