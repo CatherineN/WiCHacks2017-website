@@ -1,7 +1,7 @@
 body {
 	background-color: #eaffb7 ;
 	font-family: 'PT Sans', Helvetica, sans-serif;
-	color: #3b3b3b;
+	color: #505778;
 }
 
 h1, h2, h3 {
@@ -10,12 +10,20 @@ h1, h2, h3 {
 }
 
 p {
-	color: #3b3b3b;
+	color: #505778;
 }
 
 .page-top{
 	background-color: #deff9f;
-	color: #3b3b3b;
+	color: white;
+}
+
+.brand-heading{
+	color: white;
+}
+
+.intro-text{
+	color: white;
 }
 
 .the-team {
