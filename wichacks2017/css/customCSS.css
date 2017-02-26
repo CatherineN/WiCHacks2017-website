@@ -47,6 +47,15 @@ a:visited{
 	color: white;
 }
 
+.gif{
+	float: left;
+	height: 160px;
+}
+
+#gif2{
+	float: none;
+}
+
 .the-team {
 	margin: 10%;
 	font-size: 16pt;
